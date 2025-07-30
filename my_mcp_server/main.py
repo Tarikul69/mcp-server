@@ -31,7 +31,7 @@ def list_all_leaves() -> list:
         {"id": "REQ125", "name": "Charlie", "status": "Rejected"},
     ]
 
-
+f
 # Prompt: Generate leave approval message
 @mcp.prompt()
 def approve_leave_prompt(name: str, days: int, leave_type: str) -> str:
